@@ -111,16 +111,24 @@ h2,h4,p,h5,h3{
 .price-container{
   margin-bottom:10px;
 }
-@media (max-width:700px){
-  .card-container{
-    height:auto;
-    width:auto;
+@media (max-width: 700px) {
+  .card-container {
+    height: auto;
+    width: 90%;
   }
-  .bottom-left, .bottom-right{
-    width:100%;
-    height:auto;
+
+  .bottom-section {
+    height: auto;
   }
-  .butt{
-    height:50px;
+
+  .bottom-left, 
+  .bottom-right {
+    display: block; 
+    width: 100%;     
+    height: auto;    
+  }
+
+  .butt {
+    height: 50px;
   }
 }
