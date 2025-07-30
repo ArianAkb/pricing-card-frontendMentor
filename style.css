@@ -119,6 +119,7 @@ h2,h4,p,h5,h3{
   .bottom-left, .bottom-right{
     width:100%;
     height:auto;
+    display:block;
   }
   .butt{
     height:50px;
